@@ -1,0 +1,115 @@
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+    /* CSS styles for extra small devices */
+
+}
+
+/* Small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* CSS styles for small devices */
+
+    .wrapper {
+        max-width: 576px;
+    }
+}
+
+/* Medium devices (laptops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* CSS styles for medium devices */
+
+    .wrapper {
+        max-width: 768px;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* CSS styles for large devices */
+
+    * {
+        font-size: 85%;
+    }
+
+    .wrapper {
+        max-width: 992px;
+    }
+
+    .footer {
+        padding: 92px 10px 100px 10px;
+        grid-column-gap: 45px;
+    }
+
+    .calendar-section {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .header-title {
+        font-size: 2.5rem;
+    }
+
+    .header-description {
+        font-size: 1.5625rem;
+    }
+
+    .header {
+        gap: 10px;
+        padding: 50px 120px 0px 75px;
+    }
+
+    .news-card {
+        max-width: 200px;
+        gap: 15px;
+    }
+
+    .news-img {
+        max-width: 200px;
+    }
+
+
+    .news-main {
+        gap: 10px;
+        padding: 0 20px 20px 32px;
+    }
+
+    .partner-main {
+        gap: 50px;
+    }
+
+
+    .news-section {
+        padding: 80px 10px;
+    }
+
+    .orgPartners-section {
+        padding: 60px 0;
+    }
+
+    .news-button {
+        margin-top: 0;
+    }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+
+    /* CSS styles for extra large devices */
+    .wrapper {
+        max-width: 1200px;
+    }
+
+    .footer {
+        padding: 92px 50px 100px 50px;
+    }
+
+    .calendar-section {
+        padding: 70px;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .wrapper {
+        max-width: 1400px;
+    }
+}
