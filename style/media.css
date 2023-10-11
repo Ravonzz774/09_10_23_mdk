@@ -94,7 +94,7 @@
     }
 
     .header-bg {
-        background: url("/img/header-bg.png");
+        background: url("./img/header-bg.png");
         background-repeat: no-repeat;
         background-size: 150%;
         height: 135vh;
@@ -310,7 +310,7 @@
     }
 
     .header-bg {
-        background: url("/img/header-bg.png");
+        background: url("./img/header-bg.png");
         background-repeat: no-repeat;
         background-size: 150%;
         height: 135vh;
@@ -528,7 +528,7 @@
     }
 
     .header-bg {
-        background: url("/img/header-bg.png");
+        background: url("./img/header-bg.png");
         background-repeat: no-repeat;
 
         height: 120vh;
