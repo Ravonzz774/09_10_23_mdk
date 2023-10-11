@@ -31,3 +31,4 @@ $(window).on('load resize', function() {
       initSlider();
     }
   });
+
