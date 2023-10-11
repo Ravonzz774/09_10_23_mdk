@@ -2,14 +2,427 @@
 @media (max-width: 575.98px) {
     /* CSS styles for extra small devices */
 
+    * {
+        font-size: 85%;
+    }
+
+    .calendar-section {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .header-title {
+        font-size: 2.5rem;
+    }
+
+    .header-description {
+        font-size: 1.5625rem;
+    }
+
+    .header {
+        gap: 10px;
+        padding: 50px 50px 0px 75px;
+    }
+
+    .news-card-wrapper {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: 60%;
+        padding: 54px 35px 70px 42px;
+        background-position: 50% 50%;
+    }
+
+
+    .news-img {
+        width: 500px;
+    }
+
+
+    .news-main {
+        gap: 10px;
+        padding: 0 20px 20px 32px;
+    }
+
+    .partner-main {
+        gap: 50px;
+    }
+
+
+    .news-section {
+        padding: 80px 10px;
+    }
+
+    .orgPartners-section {
+        padding: 60px 0;
+    }
+
+    .news-button {
+        margin-top: 0;
+    }
+
+
+    .calendar-section {
+        display: grid;
+        grid-template-rows: 0.9fr 1fr;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+    }
+
+    .calendar-card {
+        max-width: 300px;
+    }
+
+    .calendar-left {
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .calendar-names {
+        margin-top: 20px;
+    }
+
+    .calendar-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .header-bg {
+        background: url("/img/header-bg.png");
+        background-repeat: no-repeat;
+        background-size: 150%;
+        height: 135vh;
+
+    }
+
+
+    .news-cards {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+    }
+
+    .orgPartners-section img {
+        width: 32%;
+        scale: 0.55;
+    }
+
+    .orgPartners-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .partner-main {
+        gap: 10px;
+    }
+
+    .partner-img-lower {
+        margin-bottom: 15px;
+    }
+
+    .slide {
+        width: 400px;
+        height: 400px;
+    }
+
+    .slider-arrowsDots-block {
+        margin-top: 40px;
+    }
+
+    .footer {
+        padding: 0px 10px 60px 10px;
+        grid-row-gap: 45px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-left-block {
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-nav {
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-right-block {
+        margin: 0 40px;
+        align-items: center;
+    }
+
+    .partners-section {
+        padding: 30px 10px 110px 10px;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        grid-row-gap: 60px;
+    }
+
+    .partners-card {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+        justify-content: space-between;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .partners-card-center {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+        justify-content: space-between;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .partners-card-wrapper {
+        height: 250px;
+    }
+
+    .calendar-el {
+        padding: 10px 20px;
+    }
+
+    .footer-info {
+        margin: 20px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 }
 
 /* Small devices (tablets) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     /* CSS styles for small devices */
 
+    * {
+        font-size: 85%;
+    }
+
     .wrapper {
         max-width: 576px;
+    }
+
+    .calendar-section {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .header-title {
+        font-size: 2.5rem;
+    }
+
+    .header-description {
+        font-size: 1.5625rem;
+    }
+
+    .header {
+        gap: 10px;
+        padding: 50px 50px 0px 75px;
+    }
+
+    .news-card-wrapper {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: 60%;
+        padding: 54px 35px 70px 42px;
+        background-position: 50% 50%;
+    }
+
+
+    .news-img {
+        width: 500px;
+    }
+
+
+    .news-main {
+        gap: 10px;
+        padding: 0 20px 20px 32px;
+    }
+
+    .partner-main {
+        gap: 50px;
+    }
+
+
+    .news-section {
+        padding: 80px 10px;
+    }
+
+    .orgPartners-section {
+        padding: 60px 0;
+    }
+
+    .news-button {
+        margin-top: 0;
+    }
+
+
+    .calendar-section {
+        display: grid;
+        grid-template-rows: 0.9fr 1fr;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+    }
+
+    .calendar-card {
+        max-width: 300px;
+    }
+
+    .calendar-left {
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .calendar-names {
+        margin-top: 20px;
+    }
+
+    .calendar-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .header-bg {
+        background: url("/img/header-bg.png");
+        background-repeat: no-repeat;
+        background-size: 150%;
+        height: 135vh;
+
+    }
+
+
+    .news-cards {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+    }
+
+    .orgPartners-section img {
+        width: 32%;
+        scale: 0.55;
+    }
+
+    .orgPartners-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .partner-main {
+        gap: 10px;
+    }
+
+    .partner-img-lower {
+        margin-bottom: 15px;
+    }
+
+    .slide {
+        width: 400px;
+        height: 400px;
+    }
+
+    .slider-arrowsDots-block {
+        margin-top: 40px;
+    }
+
+    .footer {
+        padding: 0px 10px 60px 10px;
+        grid-row-gap: 45px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-left-block {
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-nav {
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-right-block {
+        margin: 0 40px;
+        align-items: center;
+    }
+
+    .partners-section {
+        padding: 30px 10px 110px 10px;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        grid-row-gap: 60px;
+    }
+
+    .partners-card {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+        justify-content: space-between;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .partners-card-center {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+        justify-content: space-between;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .partners-card-wrapper {
+        height: 250px;
+    }
+
+    .calendar-el {
+        padding: 10px 20px;
+    }
+
+    .footer-info {
+        margin: 20px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }
 
@@ -17,8 +430,170 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
     /* CSS styles for medium devices */
 
+    * {
+        font-size: 85%;
+    }
+
     .wrapper {
         max-width: 768px;
+    }
+
+
+
+    .calendar-section {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .header-title {
+        font-size: 2.5rem;
+    }
+
+    .header-description {
+        font-size: 1.5625rem;
+    }
+
+    .header {
+        gap: 10px;
+        padding: 50px 120px 0px 75px;
+    }
+
+    .news-card-wrapper {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: 60%;
+        padding: 54px 35px 70px 42px;
+        background-position: 50% 50%;
+    }
+
+
+    .news-img {
+        width: 500px;
+    }
+
+
+    .news-main {
+        gap: 10px;
+        padding: 0 20px 20px 32px;
+    }
+
+    .partner-main {
+        gap: 50px;
+    }
+
+
+    .news-section {
+        padding: 80px 10px;
+    }
+
+    .orgPartners-section {
+        padding: 60px 0;
+    }
+
+    .news-button {
+        margin-top: 0;
+    }
+
+
+    .calendar-section {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+    }
+
+    .calendar-card {
+        max-width: 300px;
+    }
+
+    .calendar-left {
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .calendar-names {
+        margin-top: 20px;
+    }
+
+    .calendar-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .header-bg {
+        background: url("/img/header-bg.png");
+        background-repeat: no-repeat;
+
+        height: 120vh;
+
+    }
+
+
+    .news-cards {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+    }
+
+    .orgPartners-section img {
+        width: 32%;
+        scale: 0.55;
+    }
+
+    .orgPartners-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .partner-main {
+        gap: 10px;
+    }
+
+    .partner-img-lower {
+        margin-bottom: 15px;
+    }
+
+    .slide {
+        width: 400px;
+        height: 400px;
+    }
+
+    .slider-arrowsDots-block {
+        margin-top: 40px;
+    }
+
+    .footer {
+        padding: 92px 10px 100px 10px;
+        grid-row-gap: 45px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-left-block {
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-nav {
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-right-block {
+        margin: 0 40px;
+    }
+
+    .partners-section {
+        padding: 110px 10px 120px 10px;
     }
 }
 
@@ -88,6 +663,8 @@
     .news-button {
         margin-top: 0;
     }
+
+
 }
 
 /* Extra large devices (large desktops) */

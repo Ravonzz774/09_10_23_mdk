@@ -667,7 +667,7 @@
     line-height: normal;
 }
 
-.right-block {
+.footer-right-block {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
