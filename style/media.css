@@ -3,7 +3,7 @@
     /* CSS styles for extra small devices */
 
     * {
-        font-size: 85%;
+        font-size: 70%;
     }
 
     .calendar-section {
@@ -11,21 +11,38 @@
         gap: 15px;
     }
 
+    .header-main {
+        margin-top: 20px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-start;
+        align-items: flex-end;
+        max-width: 100%;
+    }
+
     .header-title {
         font-size: 2.5rem;
+        text-align: center;
     }
 
     .header-description {
         font-size: 1.5625rem;
+        text-align: center;
     }
 
     .header {
         gap: 10px;
-        padding: 50px 50px 0px 75px;
+        padding: 50px 20px 0px 20px;
+    }
+
+    .header-button {
+        margin: 0 auto;
     }
 
     .news-card-wrapper {
-        width: 500px;
+        width: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -96,8 +113,8 @@
     .header-bg {
         background: url("../img/header-bg.png");
         background-repeat: no-repeat;
-        background-size: 150%;
-        height: 135vh;
+        background-size: 200%;
+        height: 120vh;
 
     }
 
@@ -137,10 +154,16 @@
     }
 
     .footer {
-        padding: 0px 10px 60px 10px;
+        padding: 60px 0px 60px 0px;
         grid-row-gap: 45px;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr;
+        grid-template-rows: 0.6fr 1fr;
+        grid-template-columns: 360px;
+    }
+
+    .footer-down {
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .footer-left-block {
@@ -199,7 +222,7 @@
     }
 
     .calendar-el {
-        padding: 10px 20px;
+        padding: 4px 9px;
     }
 
     .footer-info {
@@ -207,6 +230,88 @@
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+
+
+    .employees-section {
+        padding: 40px 0;
+        padding-bottom: 200px;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 250px;
+
+    }
+
+    .slick-track {
+        padding: 40px 0;
+    }
+
+    .slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 330px;
+        height: 330px;
+        z-index: 0;
+        scale: 1;
+        filter: blur(0px);
+    }
+
+    .employ-photo {
+        margin: 0 auto;
+        margin-bottom: -70px;
+        z-index: 5;
+    }
+
+    .employ-main {
+        border-radius: 10px;
+        background: #FFF;
+
+        padding: 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .employ-name {
+        color: var(--text, #000);
+        font-family: Circe;
+        font-size: 1.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 40px;
+    }
+
+    .employ-text {
+        color: #6B6B6B;
+        font-family: Circe;
+        font-size: 1.5625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .employ-desc {
+        color: #8B8B8B;
+        font-family: Circe;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .footer-description {
+        text-align: center;
     }
 }
 
