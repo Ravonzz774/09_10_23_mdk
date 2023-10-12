@@ -1,6 +1,38 @@
 @import url('https://fonts.cdnfonts.com/css/circe');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+:root {
+    --text: #000;
+    --1: #00A1DF;
+    --2: #F9BC0E;
+    --font-size-header-title: 3.75rem;
+    --font-size-header-description: 2.1875rem;
+    --font-size-header-button: 1.125rem;
+    --font-size-calendar-name: 2.1875rem;
+    --font-size-calendar-names: 1.25rem;
+    --font-size-calendar-el: 1.125rem;
+    --font-size-calendar-card-title: 1.5625rem;
+    --font-size-calendar-card-description: 0.9375rem;
+    --font-size-calendar-card-link: 1.125rem;
+    --font-size-partners-card-title: 1.875rem;
+    --font-size-partners-card-description: 1.25rem;
+    --font-size-news-title: 1.875rem;
+    --font-size-news-description: 1.25rem;
+    --font-size-news-button: 1.125rem;
+    --font-size-employ-name: 1.875rem;
+    --font-size-employ-text: 1.5625rem;
+    --font-size-employ-desc: 1.25rem;
+    --font-size-org-title: 2.8125rem;
+    --font-size-partners-title: 2.8125rem;
+    --font-size-footer-nav: 1.125rem;
+    --font-size-footer-description: 1.25rem;
+    --font-size-footer-info: 1.25rem;
+    --font-size-footer-map: 1.25rem;
+    --font-size-header-burger-nav: 18px;
+}
+
+
+
 
 * {
     margin: 0;
@@ -42,20 +74,20 @@
 }
 
 .header-title {
-    color: var(--text, #000);
+    color: var(--text);
     text-align: right;
     font-family: Circe;
-    font-size: 3.75rem;
+    font-size: var(--font-size-header-title);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 .header-description {
-    color: var(--text, #000);
+    color: var(--text);
     text-align: right;
     font-family: Circe;
-    font-size: 2.1875rem;
+    font-size: var(--font-size-header-description);
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
@@ -65,12 +97,12 @@
 
 .header-button {
     border-radius: 5px;
-    background: var(--1, #00A1DF);
+    background: var(--1);
     box-shadow: 0px 0px 22px 0px #DDF5FF;
     padding: 22px 92px;
     color: #FFF;
     font-family: Roboto;
-    font-size: 1.125rem;
+    font-size: var(--font-size-header-button);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -102,7 +134,7 @@
 .calendar-name {
     color: #2B2B2B;
     font-family: Roboto;
-    font-size: 2.1875rem;
+    font-size: var(--font-size-calendar-name);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -126,7 +158,7 @@
 .calendar-names a {
     color: #8B8B8B;
     font-family: Roboto;
-    font-size: 1.25rem;
+    font-size: var(--font-size-calendar-names);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -160,14 +192,14 @@
     color: #2B2B2B;
     text-align: center;
     font-family: Roboto;
-    font-size: 1.125rem;
+    font-size: var(--font-size-calendar-el);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .yellow-text {
-    color: var(--2, #F9BC0E);
+    color: var(--2);
 }
 
 .calendar-border-first-column {
@@ -226,9 +258,9 @@
 }
 
 .calendar-card-title {
-    color: var(--text, #000);
+    color: var(--text);
     font-family: Circe;
-    font-size: 1.5625rem;
+    font-size: var(--font-size-calendar-card-title);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -237,7 +269,7 @@
 .calendar-card-description {
     color: #8B8B8B;
     font-family: Circe;
-    font-size: 0.9375rem;
+    font-size: var(--font-size-calendar-card-description);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -246,14 +278,14 @@
 .calendar-card-link {
     color: #00A1E1;
     font-family: Circe;
-    font-size: 1.125rem;
+    font-size: var(--font-size-calendar-card-link);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .blue-bg {
-    background: var(--1, #00A1DF);
+    background: var(--1);
 }
 
 .partners-section {
@@ -291,7 +323,7 @@
 .partners-line {
     width: 72px;
     height: 5px;
-    background: var(--2, #F9BC0E);
+    background: var(--2);
 }
 
 .partners-card-logo {
@@ -299,9 +331,9 @@
 }
 
 .partners-card-title {
-    color: var(--text, #000);
+    color: var(--text);
     font-family: Circe;
-    font-size: 1.875rem;
+    font-size: var(--font-size-partners-card-title);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -311,7 +343,7 @@
 .partners-card-description {
     color: #8B8B8B;
     font-family: Circe;
-    font-size: 1.25rem;
+    font-size: var(--font-size-partners-card-description);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
